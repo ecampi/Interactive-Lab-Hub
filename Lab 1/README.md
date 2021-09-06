@@ -70,13 +70,25 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
+Setting: This interaction would happen while the user is working out, working, or studying. 
+
+Players: The one user of the device is the only person involved in this interaction. The people around the person would be the people present for the interaction. Since the people who drink from the bottle are the users, there could be multiple users. They would all be involved in the interaction since the light would indicate when the bottle is almost out of water. Any of the users of the bottle could interact with the device and refill the bottle when they see the light change.
+
+Activity: When the light changes to indicate that the bottle needs more water, a user would take the bottle to the sink or a water filling device in order to refill the bottle.
+
+Goals: The goal is for the user to be infomed of how much water they have in their bottle. The bigger goal would be to help the users drink more water and remind them to fill up their bottle.
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
 
+![photo_2021-09-05_17-31-04](https://user-images.githubusercontent.com/15096302/132144304-9eb5d84b-4fae-4d5b-8616-3d2d225d83ed.jpg)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+The device seems useful to people who need to drink more water becasue there's a physical indicator showing the user that they need more water. This makes them more likely to notice it and refill the bottle. 
 
 
 ## Part B. Act out the Interaction
@@ -85,8 +97,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+Yes. We realized that a potential alternate solution to not knowing how much water is in your water bottle, is to get a clear or see through bottle.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+Yes. We had a few ideas of how to implement the device. We thought of using wires that stick into the water and when there's no current between them (no water), the light would turn red. 
 
 ## Part C. Prototype the device
 
@@ -100,15 +115,20 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Once my group figured out how to use it, it was very helpful. We used it for our staging video.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
+The device worked in our first attempts, so we don't have any follow ups!
 
 
 ## Part E. Costume the device
