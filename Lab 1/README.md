@@ -139,16 +139,23 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+![photo_2021-09-05_17-30-57](https://user-images.githubusercontent.com/15096302/132239746-aced9efb-8dde-4e07-9c3a-f38fdb543bc5.jpg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+While building the device, we thought it would be best to show only the bottom part of the phone screen which is showing the color. Otherwise, the light would be too big. Also, since a phone is hard and can't bend, the device we sketched is slightly different. The light also needs to be on the outside of the bottle because electronics + water is not a great combo. 
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Here's the link: https://drive.google.com/file/d/1M7FvXwoX2AWqAZeDpBlKGWLihJjHk4SH/view
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+I collaborated with Aman Prasad.
 
 
 # Staging Interaction, Part 2 
