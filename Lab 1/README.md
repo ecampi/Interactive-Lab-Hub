@@ -169,6 +169,14 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+Rebecca Lassman: I really like this device! I'm not sure why this idea isn't already a product, but it seems very useful. In the videos, I saw that Rebecca plugged in her phone at an outlet that was too far away to reach from the couch. When the phone was done charging, a light went on above the charger and she was able to get the phone. I'm guessing the scene would be anywhere that someone would charge their phone, so most likely their bedroom or house. The goal of the character would be to not have to constantly check their phone to see if it's fully charged.
+
+
+Mahir Kothary: This is a great idea. I would definitely use this product if it was made. If I was given the product, I wouldn't know that the blue light means that the knife needs to be sharpened, but after watching the video it is very clear. I also love the sound effects that come with the notifications about the status of the knife. In the video, I saw that when the knife was being put into the wrong spot, the light turned red. When the knife wasn't sharp enough the light would turn blue, and when everything is correct the knife would be green. The scene would be any kitchen that contains a knife which should be all kitchens. The characters would be a chef or a person making food who needs to know when to sharpen their knife.
+
+
+Kristjan Ari Tomasson: Love the video! The product seems pretty useful for someone who doesn't want to sit and look at their screen while something is running. I feel like this would be really useful. In the video, I saw that something was running on the computer, and instead of sitting and staring at that thing for the whole time, the user was able to sit down and read a book while waiting to see how the computer was doing. The character seems to be anyone who has "bought expensive hardware to mine crypto."
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
