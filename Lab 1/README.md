@@ -186,32 +186,36 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-##Part 1:
+## Part 1:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+Intro: The device that we are prototyping for this lab is a sensor and light that monitors the amount of people currently in a room, and it makes a noise and flashes if there are too many people according to the occupancy limit. 
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Setting:_ Any public room with a maximum occupancy. This could be a classroom, elevator, or a space like an auditorium 
 
-_Activity:_ What is happening between the actors?
+_Players:_ All of the people inside and immediately outside the room 
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Activity:_ People either know that they're under the maximum capacity, or know that they need to leave.
+
+_Goals:_ The goal of all the players is to know when a room is too full for saftey.
 
 
-##Part 2: 
+## Part 2: 
 
 StoryBoard:
+![image](https://user-images.githubusercontent.com/15096302/133187488-65ec08d3-3530-46ea-bf5e-491b41b862eb.png)
 
 
 Feedback:
+The person who gave me feedback thought it is a good idea, but said that it's important to consider the pitch of the noise so it's not too alarming to the people inside the room.
 
-
-##Part 3:
+## Part 3:
 
 Are there things that seemed better on paper than acted out?
-
-
+When we acted it out, I thought about how the device would actually work, and it seemed like it would be pretty complicated. 
 
 Are there new ideas that came from acting it out?
+One thing that I thought of from acting it out is the possible noises that we could use for the alarm sound.
 
 
-##Recording:
+## Recording:
+https://drive.google.com/file/d/1UaXR9OTgEsIdSA7Z4tQTH4kEyaQaovv2/view
