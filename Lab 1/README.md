@@ -186,6 +186,7 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
+##Part 1:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
@@ -194,3 +195,23 @@ _Players:_ Who is involved in the interaction? Who else is there? If you reflect
 _Activity:_ What is happening between the actors?
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+
+
+##Part 2: 
+
+StoryBoard:
+
+
+Feedback:
+
+
+##Part 3:
+
+Are there things that seemed better on paper than acted out?
+
+
+
+Are there new ideas that came from acting it out?
+
+
+##Recording:
