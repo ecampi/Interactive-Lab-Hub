@@ -1,9 +1,10 @@
-import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+import random
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -60,12 +61,73 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+fontHehe = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 48)
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonA.switch_to_input()
+fillHour = "#FF0000"
+fillMinute = "#FFA500"
+fillSecond = "#FFFF00"
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+    #hello
+
+    if not buttonA.value:
+        random_hour = random.randint(0,16777215)
+        random_minute = random.randint(0,16777215)
+        random_second = random.randint(0,16777215)
+        hex_hour = str(hex(random_hour))
+        hex_minute = str(hex(random_minute))
+        hex_second = str(hex(random_second))
+        fillHour = "#" + hex_hour[2:]
+        fillMinute = "#" + hex_minute[2:]
+        fillSecond = "#" + hex_second[2:]
+        if len(fillHour) != 7:
+            fillHour = fillHour + "0"
+        if len(fillMinute) != 7:
+            fillMinute = fillMinute + "0"
+        if len(fillSecond) != 7:
+            fillSecond = fillSecond + "0"
+
+    timeString = strftime("%H:%M:%S")
+    timeList = timeString.split(":")
+    times = []
+    for time in timeList:
+        times.append(int(time))
+
+    ideal = [16,37,0]
+
+    if ideal[0] == 0:
+        ideal[0] = 12
+
+    if ideal[1] == 0:
+        ideal[0] -= 1
+        ideal[1] = 60
+
+    if ideal[2] == 0:
+        ideal[1] -= 1
+        ideal[2] = 60
+
+    new = []
+    for i in range(len(ideal)):
+        new.append(ideal[i] - times[i])
+    
+    if new[0] < 0 or new[1] < 0:
+        new[0] = 23 + new[0]
+        new[1] = 60 + new [1]
+
+    textHour = str(new[0])
+    draw.text((0,20), textHour, fill=fillHour, font=fontHehe)
+
+    textMinute = str(new[1])
+    draw.text((90,20), textMinute, fill=fillMinute, font=fontHehe)
+
+    textSecond = str(new[2])
+    draw.text((180,20),textSecond, fill=fillSecond, font=fontHehe)
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    sleep(1)
