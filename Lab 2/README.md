@@ -191,10 +191,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+https://drive.google.com/file/d/1vHI-GIuKHnPOLC-AkO1RePMiMwUA0UjQ/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+Brainstorm:
+- it would be interesting to be able to set the time on the device instead of having to hard code it into the code
+- the math that computes the time shown on the screen could probably be a bit better 
+- more color options!
 
 # Prep for Part 2
 
