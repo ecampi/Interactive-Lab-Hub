@@ -103,6 +103,9 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![IMG_20211003_113012](https://user-images.githubusercontent.com/15096302/135762105-01918a06-fc6a-45a1-b371-a5618d7edb25.jpg)
+
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
@@ -112,6 +115,8 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Acting out the interaction helped us understand that sometimes different parts of the script were combined. For example, in the script we had that the device would ask if the user wants to set an alarm, and then the user would say yes and the device would ask what time. In the real interaction, the question "do you want to set an alarm" had a combined answer of yes and what time. Also, we learned that it's important for the device to wait a little bit for the user to talk before responding. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
