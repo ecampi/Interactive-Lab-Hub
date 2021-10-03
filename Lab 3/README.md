@@ -110,9 +110,13 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 
+We came up with 3 features that the assistant can have: waving hello and goodbye, making alarm sounds, and helping the user pick out the color of their outfit. We all decided on a story of steve getting up in the morning and using all three of the features. 
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+
+https://youtu.be/TK9HJKQ4zF4
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
