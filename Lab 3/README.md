@@ -103,6 +103,11 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+#### I worked with:
+Alex Kluver (abk98)
+Saurav Panda (sgp65)
+Joshua Schmidt
+
 ![IMG_20211003_113012](https://user-images.githubusercontent.com/15096302/135762105-01918a06-fc6a-45a1-b371-a5618d7edb25.jpg)
 
 
