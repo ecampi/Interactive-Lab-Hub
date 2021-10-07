@@ -140,7 +140,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
    
-   The device could be better with timing and definitely anticipation of misunderstandings. It would be helpful to have a feature where the user could say "what" or "say that again" and the device would repeat itself. 
+   The device could be better with timing and definitely anticipation of misunderstandings. It would be helpful to have a feature where the user could say "what" or "say that again" and the device would repeat itself. It would also be nice to have the device look differently to what it looked like in the first storyboard.
    
 3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 
