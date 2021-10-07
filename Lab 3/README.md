@@ -139,8 +139,14 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+   
+   The device could be better with timing and definitely anticipation of misunderstandings. It would be helpful to have a feature where the user could say "what" or "say that again" and the device would repeat itself. 
+   
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+   In our plan, we have a "hand wave" feature in the device. We're planning on using a servo to replicate that hand wave for the final prototype.
+
+5. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 
