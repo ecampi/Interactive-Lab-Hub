@@ -17,6 +17,9 @@ while True:
         # Set the servo to 180 degree position
         servo.angle = 180
         time.sleep(2)
+
+        servo.angle = 90
+        time.sleep(2)
         # Set the servo to 0 degree position
         servo.angle = 0
         time.sleep(2)

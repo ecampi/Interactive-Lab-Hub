@@ -2,7 +2,7 @@ from __future__ import print_function
 import qwiic_joystick
 import time
 import sys
-
+from adafruit_servokit import ServoKit
 #things for the display:
 from time import strftime, sleep
 import subprocess
@@ -60,7 +60,13 @@ def runExample():
 
 	myJoystick.begin()
 
+	kit = ServoKit(channels=16)
+	servo = kit.servo[2]
+	servo.set_pulse_width_range(500, 2500)
+
 	print("Initialized. Firmware Version: %s" % myJoystick.version)
+
+	servo.angle = 0
 
 	while True:
 
@@ -68,10 +74,19 @@ def runExample():
 			draw.rectangle((0, 0, width, height), outline=0, fill=0)
 			draw.text((0,20), "UP", fill=fillHour, font=fontHehe)
 			disp.image(image, rotation)
+			if servo.angle < 179:
+				servo.angle += 1
+				time.sleep(.1)
+			
 		elif myJoystick.vertical == 1023:
 			draw.rectangle((0, 0, width, height), outline=0, fill=0)
 			draw.text((0,20), "DOWN", fill=fillHour, font=fontHehe)
 			disp.image(image, rotation)
+			if servo.angle > 1:
+				servo.angle -= 1
+				time.sleep(.1)
+			
+			
 		else:
 			draw.rectangle((0, 0, width, height), outline=0, fill=0)
 			disp.image(image, rotation)
