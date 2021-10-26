@@ -174,10 +174,14 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![Image from iOS](https://user-images.githubusercontent.com/15096302/137830471-e77f206b-ad52-44fc-8fad-d54081163d92.jpg)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+The sketches made me think about if the device should be alone, or attached to the wall, or attached to another device. I would need to physically prototype this to understand the feel of the device and what it can do.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+(I picked the one with the star next to it)
 
 
 ### Part D
@@ -219,17 +223,22 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![Image from iOS (1)](https://user-images.githubusercontent.com/15096302/137830655-a86db1e2-57fb-475f-9363-12c6da5670d4.jpg)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+The size of the prototype was something I thought about while making these drawings, but I concluded that something small and handheld would be the best for this device. I also considered if the device should have any type of drawings or arrows on it. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+I picked the device with screen
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+I picked the prototype for the device that is small and easy to interpret. The joystick is above the screen, and the screen displays the position of the joystick when it's m
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
+https://drive.google.com/file/d/1nToMn00a3_S1SYacOyUagqSACZDHtkNz/view?usp=sharing
 
 LAB PART 2
 
