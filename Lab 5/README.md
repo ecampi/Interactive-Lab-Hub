@@ -195,6 +195,7 @@ Using the accelerometer, try the following:
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+My code is in project.py in this directory
 
 
 ### Part B
@@ -205,22 +206,23 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+My interaction comes from my sign language idea that I described above, but it is making the simplest version of that. The device tells the user when their hand is closed and open. This type of interaction can lead to advances in AR or devices in which the user's hand motions need to be read.
 
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? - This device records the user and lets them know the positioning of their hand
+2. When does it fail? - It fails when the user turns their hand around, and somethimes it detects other objects as hands
+3. When it fails, why does it fail? - When the hand is turning around, the nodes that are tracking the fingers are lost for a second and record the hand as being closed
+4. Based on the behavior you have seen, what other scenarios could cause problems? - Levels of light, detecting other things as hands
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? - If they're unfamiliar with the technology, they wouldn't be aware of any errors that could be happening
+1. How bad would they be impacted by a miss classification? - Not that much, the errors only happen for a second. But, if they needed to use it in the dark, it would have a more serious impact
+1. How could change your interactive system to address this? - I could try and create other cases for what the hand might be doing
+1. Are there optimizations you can try to do on your sense-making algorithm. - It is very laggy, so there potentially are ways to reduce that lag and make it quicker. I've already made a few reductions that have made a difference, but it still needs work.
 
 ### Part D
 ### Characterize your own Observant system
@@ -236,6 +238,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+https://drive.google.com/file/d/1_xk5cueI6udVU3nwlRynZKAfs6_M1Z59/view?usp=sharing
 
 ### Part 2.
 
