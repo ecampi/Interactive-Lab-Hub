@@ -244,4 +244,7 @@ https://drive.google.com/file/d/1_xk5cueI6udVU3nwlRynZKAfs6_M1Z59/view?usp=shari
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+From part 1, the main thing I learned is that I needed to optimize the code. I did that, and added something else small, and put it into this video:
+https://drive.google.com/file/d/1OdBlPaoOfTMwpV0XSkfTmw6Br8G2vGlk/view?usp=sharing
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
