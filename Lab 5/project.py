@@ -21,6 +21,7 @@ maxVol = 100
 vol = 0
 volBar = 400
 volPer = 0
+state = "Hand not sensed"
 while True:
     success, img = cap.read()
     img = detector.findHands(img)
@@ -57,8 +58,8 @@ while True:
             volPer = 0
             volBar = 400
             #print("CONDITION")
-            cv2.putText(img, 'quiet coyote!', (40, 70), cv2.FONT_HERSHEY_COMPLEX,
-                1, (255, 255, 255), 3)
+           # cv2.putText(img, 'quiet coyote!', (40, 70), cv2.FONT_HERSHEY_COMPLEX,
+             #   1, (255, 255, 255), 3)
         else:
  
             vol = np.interp(length, [50, 300], [minVol, maxVol])
@@ -69,10 +70,14 @@ while True:
         #print(int(length), vol)
         #print(vol)
 
-        if vol == 0:
-            print("Hand is closed")
-        else:
-            print("Hand is open")
+        if vol == 0 and state != "Hand is closed":
+            state = "Hand is closed"
+            print(state)
+        elif vol != 0 and state != "Hand is open":
+            state = "Hand is open"
+            print(state)
+    
+
 
  
         if length < 50:
