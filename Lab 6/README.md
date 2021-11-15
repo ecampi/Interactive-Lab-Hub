@@ -86,6 +86,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. This messaging system could be part of an interactive device by using it to relay a message to another device when reacting to something, like a sensor reading or a user interaction.
+2. The system could be used to request or gather information for the purpose of the interactive device.
+3. The system could be used for 2 or more people to interact with each other as a part of some messaging system.
+4. The system can be used as a log for data that comes from a sensor, so the user can go back later and view the data in the order that it happened
+5. The messaging system can be used to display similar or related things on two different interactive devices that are somehow connected, but are not the same device. In this case, it's necessary to have a communication channel between them that the user can understand.
+
 ### Part C
 ### Streaming a Sensor
 
